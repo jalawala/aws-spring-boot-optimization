@@ -70,7 +70,7 @@ exports.CdkappStack = CdkappStack;
 const app = new aws_cdk_lib_1.App();
 new CdkappStack(app, "CdkappStack", {
     env: {
-        region: "eu-west-1",
+        region: "us-east-1",
         account: process.env.CDK_DEFAULT_ACCOUNT,
     }
 });

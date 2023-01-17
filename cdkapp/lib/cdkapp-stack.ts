@@ -136,7 +136,7 @@ const app = new App();
 
 new CdkappStack(app, "CdkappStack", {
   env: {
-    region: "eu-west-1",
+    region: "us-east-1",
     account: process.env.CDK_DEFAULT_ACCOUNT,
   }
 });
